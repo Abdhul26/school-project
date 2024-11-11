@@ -5,9 +5,7 @@ import { useSession, signIn, signOut } from 'next-auth/react'
 export default function HomePage() {
   const { data: session, status } = useSession()
 
-  if (status === 'loading') {
-    return <p>Loading...</p> // Optionally show a loading message
-  }
+  if (status === 'loading') return <p>Loading...</p>
 
   return (
     <div>

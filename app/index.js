@@ -18,7 +18,7 @@ export default function HomePage() {
         </>
       ) : (
         <>
-          <h1>Welcome to the Home Page</h1>
+          <h1>Welcome to the Home Page index</h1>
           <p>Please log in to access personalized features.</p>
           <button onClick={() => signIn('credentials')}>Login</button>
         </>
